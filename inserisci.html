@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserimento</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <div style="background-color:darkblue; width: 800px; text-align: left;">
+            <h1 style="color:white; padding-left: 10px;">Inserimento</h1>
+        </div>
+        <table style="width: 800px; border: solid black 2px">
+            <tr>
+                <td><strong>FirstName</strong></td>
+                <td><strong>LastName</strong></td>
+                <td><strong>Email</strong></td>
+                <td><strong>Phone</strong></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nome" required></td>
+                <td><input type="text" id="cognome" required></td>
+                <td><input type="text" id="email" required></td>
+                <td><input type="text" id="telefono" required></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <input type="button" value="Aggiungi impiegato" style="background-color: lightgreen; color: white;" onclick="inserimento()">
+        <h2 id="errore"></h2>
+    </center>
+</body>
+</html>
